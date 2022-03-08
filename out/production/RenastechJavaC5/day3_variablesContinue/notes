@@ -1,0 +1,79 @@
+File Extensions:
+				file names                  extensions
+				pdf								.pdf
+				Excel							.xlsx
+				PowerPoint 						.ppt
+				pictures   						.png, .jpg
+				word document                   .doc
+				text files 						.txt
+				HTML							.html
+				Java							.java
+
+
+Folder: Contains files and folders
+		create folder(package) in java:  right click src folder
+			Mac: right click - new - package
+			windows: right click - new - package
+
+Instalation of JAva
+Intelije Idea
+JDK 8
+
+open terminal (Mac only):
+		search -> type "terminal" + Enter
+
+
+open command prompt (window only):
+		in search bar Type "command prompt" + Enter
+
+
+
+short cuts:
+	windows:
+		copy: ctrl + c
+		paste: ctrl + v
+
+	Mac:
+		copy: command + C
+		paste: command + v
+
+
+class: where we write our codes
+
+main method: runs the codes as java application
+
+		public static void main(String[] args) {  }
+
+
+IdeaProject folder: It has all the project that we have created in IntelliJ
+
+	how to find it:
+		windows:
+			This PC -> C -> users -> YourName -> IdeaProject
+
+		Mac:
+			go to Finder -> search for "IdeaProject"
+
+
+
+print statement: prints the output to the console
+
+		System.out.println();
+
+how to rename in intellij:
+		right click -> refactor -> Rename -> give the new name
+
+
+Comment: extra notes between codes.
+         It doesnt effect actual code
+
+	single-line comment:	starts with //
+				// comment1
+
+
+	multi-line comment:  starts with /* and ends with */
+				/*
+				comment1
+				comment2
+				comment3
+				*/
