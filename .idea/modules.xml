@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RenastechJavaC5.iml" filepath="$PROJECT_DIR$/RenastechJavaC5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaRenastech.iml" filepath="$PROJECT_DIR$/JavaRenastech.iml" />
     </modules>
   </component>
 </project>
