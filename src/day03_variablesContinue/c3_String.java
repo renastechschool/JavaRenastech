@@ -1,4 +1,4 @@
-package day3_variablesContinue;
+package day03_variablesContinue;
 
 public class c3_String {
     //string is non primitive data type
