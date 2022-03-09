@@ -50,6 +50,8 @@ public class c5_logicalOperators {
 
         System.out.println("1@Hello2"=="1@Hello2");
 
+        System.out.println(" engin"=="engin"); //false
+
 
     }
 }
