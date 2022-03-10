@@ -35,6 +35,13 @@ public class c6_ifElseStatements {
         //20 is even number
         //25 is odd number
 
+        int number=300;
+
+        if (number % 2 ==0){
+            System.out.println(number + " is even number");
+        }else {
+            System.out.println(number + " is odd number");
+        }
 
 
     }
