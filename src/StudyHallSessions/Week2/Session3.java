@@ -4,7 +4,7 @@ public class Session3 {
 
     public static void main(String[] args) {
 
-        int i1=40/3; // 13.333
+        int i1=40/3; // 13
         int i2=39/3;
 
         System.out.println("i1 = " + i1);
