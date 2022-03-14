@@ -51,6 +51,10 @@ public class c5_nestedIf {
         //    //if number is not between 0-100 grade 0 ,,"invalid number"
         //    if students absent
         //
+        //having student present
+            //check student grades
+        //having student absent
+            //no need to check student grade
 
 
         int score=-20;
