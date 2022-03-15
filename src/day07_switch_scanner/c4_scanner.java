@@ -11,7 +11,7 @@ public class c4_scanner {
         //and create object from that library
 
        // Scanner input=new Scanner(System.in);
-        Scanner  input=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
         //I called scanner class (ready library under java) and we created an object called "input"
         //from Scanner class
 
