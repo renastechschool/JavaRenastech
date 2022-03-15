@@ -23,7 +23,7 @@ public class c3_switchPractice {
 
 
             case 'c':
-                result += " c"; //hello b c
+                result += " c"; //result = result +" c" // result = hello b c
                 break;
 
             default:
