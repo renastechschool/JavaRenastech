@@ -43,7 +43,25 @@ public class c4_String {
         String str3=new String("Hello");
         //java will create an object (string) called Hello under java heap memory (not pool memory)
 
+        //what is the difference of == and equals
 
+        System.out.println(str1==str2);//true
+        System.out.println(str1==str3);//false
+        //since we have 2 different object from different memory it is going to be false
+
+        //Strings are immutable
+        //immutable means object is unchangable(can not be modify)
+
+        String s1="New york";//this will be placed under string pool
+
+        s1="Virginia"; // new object will be placed as virginia
+        //s1 reference will change to virginia
+
+        //in java string objects are immutable
+        //immutable means object is unchangable(can not be modify)
+
+
+        String s2="New York";
 
 
 
