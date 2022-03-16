@@ -1,5 +1,7 @@
 package StudyHallSessions.Week3;
 
+import java.util.Scanner;
+
 public class Session2 {
 
     public static void main(String[] args) {
@@ -46,6 +48,47 @@ public class Session2 {
             System.out.println("Bill = "+bill);
 
         }
+
+        /**
+         * /**
+         *       * //Absolute value
+         *      * //Write a program that asks the user to enter a number and displays the absolute value of that number.
+         *        */
+
+
+        Scanner input = new Scanner(System.in);
+
+
+        System.out.println("Please enter a number");
+
+        int userInput=input.nextInt();
+        int absoluteValue=0;
+
+        if (userInput < 0){
+            // -10      ==> - (-90)
+            absoluteValue= - userInput;
+            System.out.println("userInput = " + userInput);
+            System.out.println("absoluteValue = " + absoluteValue);
+        }else {
+            absoluteValue = userInput;
+            System.out.println("User input = "+userInput);
+            System.out.println("absoluteValue = " + absoluteValue);
+
+
+        }
+
+        /**
+         * Jane wants to build a very simple tip calculator for whenever he goes eating in a restaurant.
+         * In his country, it's usual to tip 15% if the bill value is between 99 and 280.
+         * If the value is different, the tip is 20%.
+         */
+
+
+
+
+
+
+
 
 
 
