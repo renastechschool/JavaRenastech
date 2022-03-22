@@ -80,7 +80,7 @@ public class c1_StringMethods {
         System.out.println(letters.substring(6));
         //print world Java
         System.out.println(letters.substring(6,15));//world Jav  index 15 wont be included
-        System.out.println(letters.substring(6,16));//world Jav
+        System.out.println(letters.substring(6,16));//world Java
 
         //print world
         System.out.println(letters.substring(6,10+1));
