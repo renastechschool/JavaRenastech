@@ -34,11 +34,13 @@ public class c1_ReverseString {
         //i need to go from last to first one by one
         //iteration -1
 
+        //besiktas  total legth 8 last index 7
+        //reverse = char7 + char6 + char5 ....... char0
         for (int i = lastIndex ; i >=0 ; i--){
-            System.out.println("i = " + i);
-            System.out.println("reverseWord2 = " + reverseWord2);
-            System.out.println("word2.charAt(i) = " + word2.charAt(i));
-            reverseWord2 += word2.charAt(i);
+            System.out.println("i = " + i); //prints index from last to first
+            System.out.println("reverseWord2 = " + reverseWord2); //prints reverseword
+            System.out.println("word2.charAt(i) = " + word2.charAt(i)); //prints what you add to reverse
+            reverseWord2 += word2.charAt(i); // reverseword2 = reverseword2  + letter
             System.out.println(" after adding charAt reverseWord2 = " + reverseWord2);
 
         }
