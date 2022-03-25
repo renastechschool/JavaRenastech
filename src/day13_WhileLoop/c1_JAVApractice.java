@@ -21,11 +21,11 @@ public class c1_JAVApractice {
         //get the count of numbers that are divisible by 2 and 3 at same time
         int count2and3=0;
 
-        for (int i =1 ; i<10000 ; i++){  // for i =1  i=2 i3
+        for (int i =1 ; i<20 ; i++){  // for i =1  i=2 i3
 
             if (i % 2 == 0 && i % 3==0 ){//true
                 result += "JAVA ";
-                count2and3++;
+                count2and3++; // 0 1 2 3
             }else if (i % 3==0 ){
                 result +="VA ";
             }else if ( i % 2 == 0 ){
