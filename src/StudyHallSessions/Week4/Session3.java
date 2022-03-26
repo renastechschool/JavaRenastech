@@ -127,6 +127,7 @@ public class Session3 {
         }
 
         System.out.println("reverseInt = " + reverseInt);
+        System.out.println("reverseInt = " + reverseInt);
 
 
     }
