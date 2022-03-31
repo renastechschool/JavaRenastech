@@ -1,5 +1,7 @@
 package StudyHallSessions.Week5;
 
+import java.time.LocalDate;
+
 public class Session1 {
     public static void main(String[] args) {
         //Reverse an int
@@ -70,9 +72,9 @@ public class Session1 {
             }
 
         }
-        System.out.println("");
 
 
+        System.out.println(LocalDate.now());
 
 
 
