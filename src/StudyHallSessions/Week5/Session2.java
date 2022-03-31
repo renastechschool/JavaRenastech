@@ -53,7 +53,7 @@ public class Session2 {
 
             // last step increment
 
-            number++;
+            number++; // number ++ > 2 ++ > 3++ 99++> 100
 
 
 
@@ -64,6 +64,40 @@ public class Session2 {
         System.out.println("DivisibelBy3 = " + DivisibelBy3);
         System.out.println("DivisibelBy5 = "+DivisibelBy5);
 
+        System.out.println("***************************");
+        /**
+         * Task 2: Write a program that checks if a String is a Palindrome.
+         *
+         * Example: input : Java , output: java is not  palindrome
+         * Example: input : kayak , output : kayak is a palindrome
+         * Example: input level , ouput : level is a palindrome
+         *
+         * tip: A palindrome is a word, number, phrase, or other sequence of characters
+         * which reads the same backward as forward, such as madam or racecar.
+         */
+
+
+        //We will use reverse to find how to read from ending point to starting point.
+
+        String str="Madam";
+        //          01234 ,, length = 5 => last index ==> length -1
+        String reverse="";
+
+        // lenght =5 -1=4
+        for (int i =str.length()-1 ; i>=0  ; i--) {
+
+            reverse+=str.charAt(i);
+
+        }
+
+        // Step2 - create logic:
+        if(str.equalsIgnoreCase(reverse)){
+            System.out.println(str +" is a Palindrome ");
+
+        }else {
+            System.out.println(str+ " is NOT a Palindrome");
+        }
 
     }
+
 }
