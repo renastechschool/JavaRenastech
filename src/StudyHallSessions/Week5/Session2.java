@@ -1,5 +1,7 @@
 package StudyHallSessions.Week5;
 
+import java.util.Scanner;
+
 public class Session2 {
 
     public static void main(String[] args) {
@@ -97,6 +99,34 @@ public class Session2 {
         }else {
             System.out.println(str+ " is NOT a Palindrome");
         }
+
+
+        /**
+         * Task 3- Write a program that prints the multiplication table of the user-provided number.
+         * with while loop
+         */
+
+        System.out.println("*****************");
+        Scanner input=new Scanner(System.in);
+
+        System.out.println("Enter a number");
+
+        int userInput=input.nextInt();
+
+        int sPoint=1;
+        int ePoint=9;
+
+        while (sPoint < ePoint){
+
+
+            System.out.println(sPoint + "*"+ userInput +" = "+ (sPoint*userInput));
+
+
+            sPoint++; // 1++ > 2++ > 3..... 9++ > 10
+
+        }
+
+
 
     }
 
