@@ -17,4 +17,5 @@ public class c2_SumNumbers {
 
 
 //class color is red that means this class is not added to git
-//
+//class color is green that means this class is added (git add comments done)
+//class color is blue that means this class is committed (git add and git commit comments done)
