@@ -109,7 +109,7 @@ public class Session3 {
         //  to enter a number as long as random number and userInput are not matching.
 
         System.out.println("Congrats ... ");
-        System.out.println("");
+
 
 
 
