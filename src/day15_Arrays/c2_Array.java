@@ -84,7 +84,7 @@ public class c2_Array {
 
         for (int i =0 ; i < list1.length  ; i++){
 
-            if (list1[i]){
+            if (list1[i]){ //list[0] , list[1]  .... list[list1.length -1]
                 System.out.println("passsed"); //0  2 3 4 ..
             }else {
                 System.out.println("failed"); //1 5
