@@ -45,7 +45,7 @@ public class c3_array {
         System.out.println(numbers [1]);//numbers index 1 will be reassigned to 20
         //new array will be  {5,20,10};
 
-        numbers [0] = numbers [2];
+        numbers [0] = numbers[2];
         //{10,20,10};
         System.out.println(numbers[0]);//10
         System.out.println(numbers[2]);//10
