@@ -78,6 +78,8 @@ public class c2_Array {
 
         boolean [] list1={true,false,true,true,true,false,true,true};
 
+        System.out.println(list1.length +"   --");//
+
         //create an java program that will check boolen values
             //if value is true print passed
             //if value is false print failed
