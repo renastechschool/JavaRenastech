@@ -54,7 +54,7 @@ public class c3_ArrarysPractice {
         //length of the index 2
         System.out.println(names[2].length()); // 7
 
-        int maxLenghtIndex=names[0].length(); // assume that names index 0 has longest length;
+        int maxLenghtIndex=0; // assume that names index 0 has longest length;
 
         for (int i = 0; i < names.length ; i++) {
 
