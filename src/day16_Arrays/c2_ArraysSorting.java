@@ -2,7 +2,7 @@ package day16_Arrays;
 
 import java.util.Arrays;
 
-public class c2_Arrays {
+public class c2_ArraysSorting {
 
     public static void main(String[] args) {
 
