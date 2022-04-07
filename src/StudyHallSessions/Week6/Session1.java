@@ -84,6 +84,7 @@ public class Session1 {
 
 
         System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(newArray)); //>> 
 
         int temp=0; // we will temp for index number in new Array int.
 
@@ -93,9 +94,8 @@ public class Session1 {
             newArray[temp] = numbers[i];
             // temp= 0, 1 ,2
 
-            temp++;
+            temp++;   // 0++
         }
-
         System.out.println(Arrays.toString(newArray));// [99, 90, 73, 4, 2, -99]
 
 
