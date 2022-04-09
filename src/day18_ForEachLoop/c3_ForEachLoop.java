@@ -9,6 +9,8 @@ public class c3_ForEachLoop {
             //do while loop
             //for each loop
 
+        //for each loop doesnt need to have starting and ending point
+        //it will check everything you have in the list,arrray
 
         int [] numbers={1,2,3,4,5,6};
 
