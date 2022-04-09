@@ -30,7 +30,7 @@ public class c4_countEvenOddNumbers {
 
         //for loop
         for (int i = 0; i <numberList.length ; i++) {
-            if (i %2 ==0){ //even numbers
+            if (numberList[i] %2 ==0){ //even numbers
                 evenCount++;
             }else { //odd numbers
                 oddCount++;
