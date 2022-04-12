@@ -38,7 +38,7 @@ public class c2_Methods {
     ////create a method that will print even numbers between 1-100
     //    //name this method evenNumbers100
     public static void evenNumbers100(){
-        //1-100
+        //1-100 // 5 -500 // 100-1000
         // 2  4 6 8 10 ... 98
         for (int i=2 ; i <101 ; i +=2 ){
             System.out.print(i + " ");
