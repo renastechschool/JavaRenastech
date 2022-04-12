@@ -10,6 +10,7 @@ public class c1_arraysIntro {
         int number2=20;
         int number3=30;
 
+
         int number4=45 , number5=25 ;
 
         //if you want to store multiple values in one container,list
