@@ -7,6 +7,8 @@ public class c2_Methods {
         //we call prinyJava10 in order to print java 10 times
         printJava10();
         hello();
+
+        evenNumbers100();
     }
 
     //decleration of the method
@@ -35,6 +37,22 @@ public class c2_Methods {
 
     ////create a method that will print even numbers between 1-100
     //    //name this method evenNumbers100
+    public static void evenNumbers100(){
+        //1-100
+        // 2  4 6 8 10 ... 98
+        for (int i=2 ; i <101 ; i +=2 ){
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+    }
 
 
 }
+
+//    // void method (without parameters)
+//    // void method (with parameters)\
+//    // return method (without parameters)
+//    // return method (with parameters)
+
+//you can use above methods with different access modifier and specifier
