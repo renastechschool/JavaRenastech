@@ -1,0 +1,40 @@
+package day19_methods;
+
+public class c2_Methods {
+
+    public static void main(String[] args) {
+
+        //we call prinyJava10 in order to print java 10 times
+        printJava10();
+        hello();
+    }
+
+    //decleration of the method
+    // public               static           void               main        (String [] args){
+    // Access-modifer       specifier        return-type        methodName  (paramater)
+    //statments ,code
+    //}
+
+    //Access-Modifer =public, protected ,default ,priavate
+    //specifier   : static ,final ,abstract ,synchronized
+    //return type : void , any datatype(int,string,char , int [] .......)
+    //some method has paramertes some dont have parameter
+
+    //create a method that will print java 10 times
+    public static void printJava10(){
+        for (int i=1 ; i <=10 ; i++){
+            System.out.println("Java");
+        }
+
+    }
+
+    //print a hello
+    public static void hello(){
+        System.out.println("Hello Hello");
+    }
+
+    ////create a method that will print even numbers between 1-100
+    //    //name this method evenNumbers100
+
+
+}
