@@ -1,27 +1,27 @@
-package MyUtils;
+package day20_ReturnMethods;
+
+import MyUtils.GenericUtils;
 
 import java.util.Arrays;
 
-public class GenericUtils {
+public class c4_ArraySorting {
 
-    //print a hello
-    public static void hello(){
-        System.out.println("Hello Hello");
-    }
+    public static void main(String[] args) {
+        int [ ] numbers = {5,45,67,89,0,2,4,21,47};
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
 
-    //reverse a string
-    public static void reverseString(String name){
-        String reversedResult="";
+        //System.out.println("&&&&&&&&&&&&&&&&");
+        GenericUtils.Stars();
+        int [] numbers2={5,45,67,89,0,2,4,21,47};
+        descendingSort(numbers2);
 
-        for (int i =name.length() -1 ; i >=0 ; i--){
-            reversedResult += name.charAt(i);
-        }
+        //System.out.println("*******");
+        GenericUtils.Stars();
 
-        System.out.println("reversedResult = " + reversedResult);
-    }
-
-    public static void Stars(){
-        System.out.println("*************************************");
+        //int [] descendingResult = descendingSort(numbers2); void doesnt have any return
+        int [] descendingResult = descendingSort2(numbers2);
+        System.out.println(Arrays.toString(descendingResult));
     }
 
     //create a  method that will will print array in descending order
@@ -73,5 +73,6 @@ public class GenericUtils {
 
         return descArr;
     }
+
 
 }
