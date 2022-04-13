@@ -1,5 +1,7 @@
 package day20_ReturnMethods;
 
+import java.util.Arrays;
+
 public class c1_UniqueLetterFromArray {
     //Write a program that can print out the unique values from a String Array
     //            Ex:
@@ -71,8 +73,37 @@ public class c1_UniqueLetterFromArray {
 
         }
 
+        //A count :2
+        //A count :2
+        //B count :1 ;; 5
 
     }
+
+    public static void uniquesFromArray2(String [] letters){
+
+        //String [] letters = {"A", "A", "B",  "C","D","D"};
+        //no need this one because we want make sure to run this method for different String arrays
+
+        //System.out.println(Arrays.toString(letters));
+
+        for (int i=0 ; i < letters.length ; i++){//A
+
+            int count=0;
+            for (int i1 =0 ; i1 < letters.length ; i1++){//{"A", "A", "B",  "C","D","D"};
+
+                if (letters[i1].equals(letters[i])){
+                    count++;
+                }
+            }
+
+
+            if (count==1){
+                System.out.println(letters[i]);
+            }
+        }
+
+    }
+
 
 
 }
