@@ -3,7 +3,6 @@ package StudyHallSessions.Week7;
 public class Session1 {
     public static void main(String[] args) {
         //Method: Method is simply a block of code which only runs whenever it's called.
-
         //Void Methods: no return type.
 
         greeting();
