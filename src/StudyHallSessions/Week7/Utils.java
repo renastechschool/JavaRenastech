@@ -3,6 +3,7 @@ package StudyHallSessions.Week7;
 public class Utils {
 
     public static void makeLine(){
+
         System.out.println("*******************");
     }
 
