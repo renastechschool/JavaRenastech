@@ -41,5 +41,7 @@ public class Session1 {
 
     public static void makeLine(){
         System.out.println("************************");
+
+        //
     }
 }

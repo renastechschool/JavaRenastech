@@ -23,4 +23,8 @@ public class c2_TypeCasting {
     //boolean	            Boolean
     //char	                Character
 
+    public static void main(String[] args) {
+
+    }
+
 }
