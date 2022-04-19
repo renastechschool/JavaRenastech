@@ -1,5 +1,7 @@
 package day22_List;
 
+import MyUtils.GenericUtils;
+
 import java.util.ArrayList;
 
 public class c5_List {
@@ -72,6 +74,17 @@ public class c5_List {
         //last index == size -1
 
         //print me each name from arraylist
+        System.out.println("Names Are : ");
+
+        for (int i=0 ; i <= nameList.size() -1 ; i++){
+            System.out.println("nameList.get("+i+") = " + nameList.get(i));
+        }
+
+        GenericUtils.Stars();
+
+        for (String each : nameList){
+            System.out.println(each);
+        }
 
 
     }
