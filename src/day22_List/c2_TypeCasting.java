@@ -25,6 +25,33 @@ public class c2_TypeCasting {
 
     public static void main(String[] args) {
 
+        //
+        String str=new String("Hello");
+
+        //create an Integer Object
+        Integer myInt= new Integer(10);
+
+        int i1=myInt;  //unboxing
+        //converting an object of wrapper class to primitive int
+
+        Character myCh='w'; //autoboxing
+        //we take 'w' and assign to wrapper class
+        //Converting a primitive value into an object of the corresponding wrapper class
+
+        char ch2=myCh; //unboxing
+
+        System.out.println("myCh = " + myCh);
+        System.out.println("ch2 = " + ch2);
+
+        int number =100; //prim
+
+        Integer myInt5=number; // autoboxing
+
+        Byte myByte=26;
+        byte b1=myByte;//unboxing
+
+
+
     }
 
 }
