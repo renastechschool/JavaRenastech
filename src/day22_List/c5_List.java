@@ -86,6 +86,9 @@ public class c5_List {
             System.out.println(each);
         }
 
+        nameList.add("EG");
+        System.out.println("nameList.size() = " + nameList.size());
+
 
     }
 
