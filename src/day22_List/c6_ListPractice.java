@@ -7,5 +7,8 @@ public class c6_ListPractice {
     //return maximumnumber
     public static void main(String[] args) {
 
+
+        //
+
     }
 }
