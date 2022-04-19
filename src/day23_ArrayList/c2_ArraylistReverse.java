@@ -13,5 +13,25 @@ public class c2_ArraylistReverse {
         ArrayList<Integer> list=new ArrayList<>();
 
         //add  numbers from 1 to 10
+
+        for (int i=1 ; i <= 10 ; i++){
+            list.add(i);
+        }
+        System.out.println(list);
+
+        System.out.println("reverseArrayList() = " + reverseArrayList(list));
+    }
+
+
+    public static ArrayList<Integer> reverseArrayList(ArrayList<Integer> numbers){
+
+        ArrayList<Integer> reversedList= new ArrayList<>();
+        for (int i= numbers.size()-1 ; i >=0 ; i--){
+
+            reversedList.add(numbers.get(i));
+        }
+
+        return reversedList;
+
     }
 }
